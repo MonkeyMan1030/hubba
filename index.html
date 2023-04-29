@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our School District</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Our School District</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Schools</a></li>
+        <li><a href="#">Programs</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome to Our School District</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac justo ante. Praesent et massa vitae metus malesuada sollicitudin sit amet eu elit. Sed bibendum erat nec leo vulputate, vel lacinia lacus eleifend. Suspendisse non magna ullamcorper, ultrices velit vitae, faucibus turpis. Sed ac lectus eu sapien convallis aliquet sit amet vel massa. Sed euismod nulla id tellus congue elementum. Donec venenatis dui vitae aliquam luctus. </p>
+    </section>
+
+    <section>
+      <h2>Featured Schools</h2>
+      <div class="slideshow">
+        <img class="slides" src="https://via.placeholder.com/800x400?text=School+1">
+        <img class="slides" src="https://via.placeholder.com/800x400?text=School+2">
+        <img class="slides" src="https://via.placeholder.com/800x400?text=School+3">
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Programs</h2>
+      <ul>
+        <li>Arts and Music</li>
+        <li>Athletics</li>
+        <li>STEM</li>
+        <li>Special Education</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Our School District 2023</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
